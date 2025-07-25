@@ -1,0 +1,79 @@
+
+body {
+  font-family: sans-serif;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  position: relative;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.card button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#profile-img {
+  width: 150px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.status {
+  background: #5a00d2;
+  color: white;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 20px;
+  width: 60%;
+  font-weight: bold;
+}
+
+.qr {
+  width: 120px;
+  margin: 10px 0;
+}
+
+.time {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  color: #6b50c5;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.note {
+  color: #6b50c5;
+  font-size: 14px;
+}
+
+.watermark {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 120px;
+  opacity: 0.1;
+}

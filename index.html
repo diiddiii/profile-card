@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>정홍주 - 복지 회원증</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <button onclick="location.reload()">⟳</button>
+    <label for="profile-upload">
+      <img id="profile-img" src="profile.jpg" alt="프로필 사진" />
+    </label>
+    <input type="file" id="profile-upload" accept="image/*" style="display: none;" />
+
+    <h2>정홍주</h2>
+    <p>정영재의 녀</p>
+    <div class="status">승인완료</div>
+
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=정홍주" alt="QR코드" class="qr">
+
+    <div id="datetime" class="time"></div>
+
+    <ul>
+      <li>마트 이용 가능</li>
+      <li>호텔콘도 이용 가능</li>
+    </ul>
+
+    <p class="note">국방복지 회원임을 증명합니다.<br>※캡쳐된 화면은 사용이 불가능합니다.</p>
+
+    <img src="watermark.png" class="watermark" />
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
